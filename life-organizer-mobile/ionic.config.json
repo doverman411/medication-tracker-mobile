@@ -1,0 +1,7 @@
+{
+  "name": "life-organizer-mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
