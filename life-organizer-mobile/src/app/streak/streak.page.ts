@@ -4,13 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { IonContent, IonHeader, IonTitle, IonToolbar } from '@ionic/angular/standalone';
 
 @Component({
-  selector: 'app-todo',
-  templateUrl: './todo.page.html',
-  styleUrls: ['./todo.page.scss'],
+  selector: 'app-streak',
+  templateUrl: './streak.page.html',
+  styleUrls: ['./streak.page.scss'],
   standalone: true,
   imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
 })
-export class TodoPage implements OnInit {
+export class StreakPage implements OnInit {
 
   constructor() { }
 

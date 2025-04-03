@@ -1,12 +1,12 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { AppLayoutPage } from './app-layout.page';
+import { StreakPage } from './streak.page';
 
-describe('AppLayoutPage', () => {
-  let component: AppLayoutPage;
-  let fixture: ComponentFixture<AppLayoutPage>;
+describe('StreakPage', () => {
+  let component: StreakPage;
+  let fixture: ComponentFixture<StreakPage>;
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AppLayoutPage);
+    fixture = TestBed.createComponent(StreakPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
