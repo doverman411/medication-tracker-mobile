@@ -4,10 +4,10 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">check</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <div id="check-button-container">
+    <ion-button expand="block" fill="outline">
+      {{hasTaken}}
+    </ion-button>
+  </div>
 </ion-content>

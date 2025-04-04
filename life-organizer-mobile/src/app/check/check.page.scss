@@ -1,0 +1,10 @@
+#check-button-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ion-button {
+        height: 50%;
+        width: 75%;
+    }
+}
